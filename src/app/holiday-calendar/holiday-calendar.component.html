@@ -1,0 +1,8 @@
+<p>holiday-calendar works!</p>
+<!-- src/app/holiday-calendar/holiday-calendar.component.html -->
+<h2>Upcoming Holidays</h2>
+<ul>
+  <li *ngFor="let holiday of holidays">
+    {{ holiday.name }} - {{ holiday.date | date }}
+  </li>
+</ul>
